@@ -16,4 +16,5 @@ int main()
     printf("\n%d", A[i]);
   }
   return 0;
+  
 }
