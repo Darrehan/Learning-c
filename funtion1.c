@@ -15,8 +15,8 @@ struct rectangle* fun()
 }
 int main()
 {
-    struct rectangle *p;
+    struct rectangle *p; // we access with (*p).   ,  p->
     p=fun();
-    printf("%d\n%d ",(*p).length,p->breadth);
+    printf("%d\n%d ",(*p).length,p->breadth);  //accessing structure element's with the help of pointer because its returning pointer to a structure 
     return 0;
 }

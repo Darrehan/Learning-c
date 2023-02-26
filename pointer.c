@@ -20,8 +20,8 @@ int main()
     int B[10];
     int *p;
     p = (int *)malloc(sizeof(int)); // dynamic allocation of an array inside the heap ,dynamic object
-    B[0] = 1;
-    B[1] = 2;
+    p[0] = 1;
+    p[1] = 2;
     p[2] = 3;
     p[3] = 4;
     p[4] = 5;

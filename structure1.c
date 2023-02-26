@@ -18,8 +18,8 @@ int main()
   p->length = 9;
   printf("\n Area is equal = %d", (*p).breadth * p->length);
   struct rehan *q;
-  q = (struct rehan *)malloc(sizeof(q));
-  (*q).breadth = 9;
+  q = (struct rehan *)malloc(sizeof(struct rehan));
+  (*q).breadth = 9; // accessing structure member with the help of pointers
   q->length = 9;
   printf("\nArea is equal to = %d", (*q).breadth * q->length);
   free(q);
